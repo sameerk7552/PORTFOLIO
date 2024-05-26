@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer-Developer Portfolio</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+        body{
+            background-color: black;
+            color: white;
+            font-family: 'poppins', sans-serif;
+
+        }
+    
+        
+       nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(43, 43, 126);
+       }
+       nav ul{
+        display: flex;
+        justify-content: center;
+       }
+       nav ul li{
+        list-style: none;
+        margin: 0 23px;
+
+        
+       }
+        nav ul li a{
+        text-decoration: none;
+        color: white;
+       }
+       nav ul li a:hover{
+        color: rgb(60, 60, 178);
+        font-size: 1.04rem;
+       }
+       main hr{
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 50px 84px;
+       }
+       .left{
+        font-size: 1.5rem;
+       }
+       .firstSection{
+        display: flex;
+        justify-content: space-around;
+        margin: 130px 0;
+        align-items: center;
+       }
+       .firstSection div>{
+        width: 30%;
+
+       }
+       .leftSection{
+    
+        font-size: 3rem;
+        margin: 80px 0;
+        
+       }
+      .rightsection{
+        margin-top: 20px;
+      }
+       
+      
+       .purple{
+        color: rgb(37, 94, 0);
+       }
+       .text-grey{
+        color: grey;
+       }
+       #element{color: rgb(37, 94, 0);
+
+       }
+       .secondsection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+       }
+       .secondsection h1{
+        font-size: 1.9rem;
+       }
+       .secondsection .box{
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+
+       }
+       .secondsection .vertical{
+        height: 90px;
+        width: 1px;
+        background-color: white;
+        margin: 0 180px;
+       }
+
+
+       .vertical-text{
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 18px;
+        color: rgb(122, 94, 23);
+
+       }
+       .vertical-desc{
+        position: relative;
+        top: 86px;
+        color: rgb(232, 214, 214);
+        width: 120px;
+        font-size: 14px;
+
+       }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Sameer's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="/"><li>Home</a></li>
+                    <a href="/"><li>About</a></li>
+                    <a href="/"><li>Services</a></li>
+                    <a href="/"><li>Projects</a></li>
+                    <a href="https://www.linkedin.com/in/sameer-kumar-3b93412a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><li>Contact Me</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Sameer</span>
+                
+                <div>and I am a passionate </div>
+                
+                <span id="element"></span>
+  </div>
+  <div class="rightSection">
+    <img src="IMG_20240130_195949.jpg" alt="">
+  </div>
+
+  
+</body>
+            
+         </section>
+         <hr>
+         <section class="secondsection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experinces</h1>
+            <div class="box">
+                <div class="vertical">
+            
+                    <div class="vertical-text">
+                        HTML Developer (2023)
+                    </div>
+                <div class="vertical-desc">
+                As an HTML developer,I craft visually engaging and interactive web Experinces.  </div>
+                </div>
+                <div class="box">
+                    <div class="vertical">
+                
+                        <div class="vertical-text">
+                            CSS Developer (2024)
+                        </div>
+                    <div class="vertical-desc">
+                    As a CSS Deveoper ,I specialize in bringing style and aesthetics to web projects.Leveraging CSS framework and techniques,I created visually stunning and responsive designs </div>
+                    </div>
+                    <div class="box">
+                        <div class="vertical">
+                    
+                            <div class="vertical-text">
+                                 Graphic Desiner (2024)
+                            </div>
+                        <div class="vertical-desc">
+                            As a GRAPHIC Designer ,I blend creativity with strategy to deliver impactful visual solutions.
+                           </div>
+                        </div>
+                        
+               
+            </div>
+         </section>
+         <form>
+            
+            </form>
+         
+    </main>
+    
+        
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Graphic Designer' ,'Video Editor','Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
