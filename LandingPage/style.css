@@ -1,0 +1,46 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1919;
+        }
+        header {
+            background-color: #333;
+            background-image: url('../Screenshot\ 2024-01-16\ 144408.png');
+            background-position: 20%;
+            background-size: 480px;
+            background-blend-mode: overlay;
+            color: #fff;
+            padding: 1.5em;
+
+            text-align: center;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2em;
+        }
+        .car {
+            width: 20%;
+            margin: .5em;
+            padding: .5em;
+            background-color: #595656;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .car img {
+            width: 100%;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #333;
+            background-image: url('../Screenshot\ 2024-01-16\ 144408.png');
+            background-blend-mode: overlay;
+            background-position: 20%;
+            background-size: 480px;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
